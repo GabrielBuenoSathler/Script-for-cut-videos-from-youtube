@@ -16,7 +16,7 @@ try:
  
     #faz o download do video com a maior qualidade
     arquivo = input ("nome do arquivo : ")
-    filters.get_highest_resolution().download(output_path='/home/niko', filename=arquivo)
+    filters.get_highest_resolution().download(output_path= "your_path", filename=arquivo)
     print('Video baixado')
 except Exception as e:
     print(e)
